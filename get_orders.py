@@ -90,7 +90,7 @@ def login_kaspi():
     driver.execute_script("document.getElementsByClassName('is-active').item(0).nextSibling.firstChild.childNodes[2].click()")
 
     time.sleep(1) 
-    driver.find_element(By.ID, "user_email").send_keys('ikkert.p@gmail.com')
+    driver.find_element(By.ID, "user_email").send_keys('email@gmail.com')
     
     driver.execute_script("document.getElementsByClassName('button is-primary').item(0).click()")
     
